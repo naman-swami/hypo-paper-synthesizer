@@ -1,0 +1,6 @@
+spec_version: "0.1.0"
+name: hypo-paper-synthesizer
+version: "0.1.0"
+description: "Peer-reviewed literature synthesis, meta-analysis extraction, and scientific claim grounding agent verifying empirical replication validity."
+model:
+  preferred: llama-3.3-70b-versatile

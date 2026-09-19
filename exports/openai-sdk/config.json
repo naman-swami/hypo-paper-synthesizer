@@ -1,0 +1,28 @@
+{
+  "name": "hypo-paper-synthesizer",
+  "instructions": "You are hypo-paper-synthesizer. Synthesize scientific literature, extract statistical effect sizes across randomized controlled trials (RCTs), and audit methodologies for replicability risks.",
+  "model": "gpt-4o",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "extract-methodology-claims",
+        "description": "Extract formal scientific hypotheses, sample sizes, and p-values from academic paper text."
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "compute-pooled-effect-size",
+        "description": "Calculate random-effects meta-analytic pooled effect size and heterogeneity (I-squared)."
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "audit-replicability-risk",
+        "description": "Score research methodology on statistical power, pre-registration status, and data availability."
+      }
+    }
+  ]
+}
