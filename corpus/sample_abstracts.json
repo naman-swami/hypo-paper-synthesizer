@@ -1,0 +1,27 @@
+[
+  {
+    "paper_id": "ARXIV-2301.001",
+    "title": "Scalable Transformers for Quantum Chemistry Surface Hopping",
+    "authors": [
+      "Vaswani, A.",
+      "Carleo, G.",
+      "Narang, P."
+    ],
+    "year": 2023,
+    "venue": "Nature Machine Intelligence",
+    "doi": "10.1038/s42256-023-001",
+    "abstract": "We present a non-adiabatic molecular dynamics framework utilizing attention-based neural operators. Our method achieves a 42x speedup over ab-initio CASSCF simulations while maintaining chemical accuracy within 0.04 eV across 10,000 trajectories."
+  },
+  {
+    "paper_id": "ARXIV-2305.002",
+    "title": "Self-Supervised Genomic Foundation Models in Rare Variant Pathogenicity",
+    "authors": [
+      "Richards, C.",
+      "AlQuraishi, M."
+    ],
+    "year": 2023,
+    "venue": "Cell Systems",
+    "doi": "10.1016/j.cels.2023.05.002",
+    "abstract": "Interpreting non-coding variants remains challenging in precision oncology. Here we train a 3-billion parameter DNA transformer on 1,000 human genomes. The model outperforms CADD and AlphaMissense with an AUROC of 0.94 on ClinVar benchmark sets."
+  }
+]
