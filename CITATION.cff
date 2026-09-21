@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Please cite this academic literature synthesis tool."
+authors:
+  - family-names: "Swami"
+    given-names: "Naman"
+title: "Hypo: Automated Empirical Claim Mining & Systematic Literature Review Engine"
+version: 0.1.0

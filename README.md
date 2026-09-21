@@ -54,7 +54,7 @@ hypo-paper-synthesizer/
 │   └── scientific_methodology.md    # PRISMA review guidelines
 ├── tests/
 │   └── test_agent.py                # Scientific NLP test suite
-├── main.py                          # Synthesis CLI
+├── synthesize.py                          # Synthesis CLI
 └── requirements.txt
 ```
 
@@ -65,5 +65,5 @@ hypo-paper-synthesizer/
 pytest tests/ -v
 
 # Synthesize benchmark research corpus
-python main.py --demo
+python synthesize.py --demo
 ```
